@@ -114,7 +114,7 @@ function Header() {
     <header className="sticky top-0 z-40 border-b border-border/60 bg-background/80 backdrop-blur-md">
       <div className="container-page flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
-          <span className="grid h-9 w-9 place-items-center rounded-full bg-primary font-display text-lg text-primary-foreground">C</span>
+          <img src="/logo.png" alt="The Corporate Cafe" className="h-9 w-9 rounded-full object-cover" />
           <span className="font-display text-lg leading-none">
             The Corporate Cafe
             <span className="block font-body text-[10px] tracking-[0.2em] text-muted-foreground uppercase mt-0.5">Sanganer · Jaipur</span>
